@@ -1,0 +1,10 @@
+maria DB
+
+사용 버전확인
+mariadb-10.11.3-winx64 설치파일
+mariadb-java-client-3.0.10-sources 설치후 
+C:\Program Files\MariaDB 10.11\lib (경로에 옮겨준다)
+
+eclipse로 돌아와서
+해당 프로잭트 우클릭 -> properties -> java build Path -> Libraries -> Classpath -> add external클릭후
+C:\Program Files\MariaDB 10.11\lib 경로의 mariadb-java-client-3.0.10-sources.jar 을 클릭한다
